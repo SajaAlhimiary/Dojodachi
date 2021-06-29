@@ -1,0 +1,22 @@
+<br><br>
+<div>
+    <div style="display: flex; justify-content: space-evenly;">
+        <p class="btn btn-outline-warning">Happiness: @ViewBag.Happiness</p>
+        <p class="btn btn-outline-danger">Fullness: @ViewBag.Fullness</p>
+        <p class="btn btn-outline-success">Energy: @ViewBag.Energy</p>
+        <p class="btn btn-outline-primary">Meals: @ViewBag.Meals</p>
+    </div>
+    <div style="border: 1px solid orange; width: 70%; hieght: 400px; margin: auto; margin-bottom: 20px; text-align: center;">
+        <img style="width: 200px; margin: 20px;" src="images/cute.png" alt="">
+        <p style="color: silver">@ViewBag.Message</p>
+    </div>
+    <div style="display: flex; justify-content: space-evenly;">
+        <a href="/feed"><button type="button" class="btn btn-outline-success">Feed</button></a>
+        <a href="/play"><button type="button" class="btn btn-outline-warning">Play</button></a>
+        <a href="/work"><button type="button" class="btn btn-outline-info">Work</button></a>
+        <a href="/sleep"><button type="button" class="btn btn-outline-danger">Sleep</button></a>
+    </div><br>
+    <div style="text-align: center;">
+        <a href="/restart"><button class="btn btn-outline-secondary">RESET</button></a>
+    </div>
+</div>
